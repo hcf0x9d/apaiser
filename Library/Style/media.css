@@ -1,0 +1,31 @@
+﻿#media_list
+{
+}
+
+    #media_list li
+    {
+        float:left;
+        list-style-type:none;
+        display:inline-block;
+        width:25%;
+        text-align:center;
+        margin:0;
+        padding:20px 0;
+		min-height:293px;
+    }
+        #media_list li a
+        {
+            text-decoration:none;
+        }
+        #media_list li img
+        {
+            border:3px solid #fff;
+        }
+
+@media only screen and (max-width: 767px)
+{
+    #media_list li
+    {
+        width:100%;
+    }
+}

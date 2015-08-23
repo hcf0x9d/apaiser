@@ -1,0 +1,11 @@
+.gallery-captions{
+    background: rgb(40,36,37);
+}
+.gallery-nav-list-item .gallery-nav-dot{
+    background: rgb(40,36,37);
+    color: rgb(40,36,37);
+}
+.gallery-nav-list-item.active .gallery-nav-dot{
+    background: #fff;
+    color: #fff;
+}

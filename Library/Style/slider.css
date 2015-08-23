@@ -1,0 +1,150 @@
+﻿.slide_wrapper
+{
+    position:absolute;
+    z-index:10;
+    margin-left:0;
+    float:left;
+}
+.slider
+{
+    display:table;
+    margin-left:-100px;
+}
+.slide_launch
+{
+    display:table-cell;
+    /*background:#aed135;
+    text-transform:uppercase;*/
+    width:21px;
+    height:112px;
+}
+.slide_contents
+{
+    display:table-cell;
+    background:rgba(89, 80, 75, 0.8);
+    width:100px;
+    color:#fff;
+}
+    .slide_contents ul
+    {
+        float:left;
+        margin:0;
+    }
+    .slide_contents li
+    {
+        display:block;
+        list-style-type:none;
+        margin:0;
+        padding:5px 10px;
+        text-align:center;
+    }
+        .slide_contents li a
+        {
+            color:#fff;
+            text-decoration:none;
+        }
+            .slide_contents li a:hover
+            {
+                color:#b0d136;
+            }
+
+
+/*-- jShowOff module styles --*/
+
+#features, #slidingFeatures, #labelFeatures, #basicFeatures, #thumbFeatures {
+	position: relative;
+	overflow: hidden;
+	min-height:300px;
+	}
+.jshowoff {
+	/*margin: 10px 0;*/
+	}
+    .jshowoff figcaption
+    {
+        background:#aed135;
+        position:absolute;
+        top:85%;
+        right:0;
+        padding:5px;
+        width:70%;
+    }
+	
+	.jshowoff figcaption h2
+		{
+			font-size:1.6em;
+        	color:#fff;
+			margin:0 !important;
+			padding:0;
+			letter-spacing:normal;
+		}
+.jshowoff div {	
+
+	}
+
+.eddie {
+	float: right;
+	padding: 15px 20px 15px 20px;
+	}
+.jshowoff p.jshowoff-slidelinks {
+	position: absolute;
+	top:80%;
+	right:0;
+	margin: 0;
+	padding: 0;
+	}
+.jshowoff-slidelinks a {
+	display: block;
+	background-color: #fff;
+	margin: 5px 5px 0 0;
+	float: left;
+	outline: none;
+	width:13px;
+	height:13px;
+	}
+ 
+ .jshowoff-controls{float:left;margin:0;padding:0;text-align:center;display:none;}
+ 
+ .jshowoff-controls a{
+ 	height:24px;
+	width:24px;
+	display:block;
+	
+	background: #eeeeee; /* Old browsers */
+	/* IE9 SVG, needs conditional override of 'filter' to 'none' */
+	background: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEgMSIgcHJlc2VydmVBc3BlY3RSYXRpbz0ibm9uZSI+CiAgPGxpbmVhckdyYWRpZW50IGlkPSJncmFkLXVjZ2ctZ2VuZXJhdGVkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgeDE9IjAlIiB5MT0iMCUiIHgyPSIwJSIgeTI9IjEwMCUiPgogICAgPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iI2VlZWVlZSIgc3RvcC1vcGFjaXR5PSIxIi8+CiAgICA8c3RvcCBvZmZzZXQ9IjEwMCUiIHN0b3AtY29sb3I9IiNjY2NjY2MiIHN0b3Atb3BhY2l0eT0iMSIvPgogIDwvbGluZWFyR3JhZGllbnQ+CiAgPHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEiIGhlaWdodD0iMSIgZmlsbD0idXJsKCNncmFkLXVjZ2ctZ2VuZXJhdGVkKSIgLz4KPC9zdmc+);
+	background: -moz-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* FF3.6+ */
+	background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #eeeeee), color-stop(100%, #cccccc)); /* Chrome,Safari4+ */
+	background: -webkit-linear-gradient(top,  #eeeeee 0%,#cccccc 100%); /* Chrome10+,Safari5.1+ */
+	background: -o-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* Opera 11.10+ */
+	background: -ms-linear-gradient(top,  #eeeeee 0%, #cccccc 100%); /* IE10+ */
+	background: linear-gradient(to bottom,  #eeeeee 0%, #cccccc 100%); /* W3C */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#eeeeee', endColorstr='#cccccc', GradientType=0 ); /* IE6-8 */
+	
+	border-radius:4px;
+	border: 1px solid #a8a8a8;
+	-moz-box-shadow:
+		0px 1px 0px rgba(000, 000, 000, 0.5),
+		inset 0px 0px 1px rgba(255, 255, 255,0.5);
+	-webkit-box-shadow:
+		0px 1px 0px rgba(000, 000, 000, 0.5),
+		inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+	box-shadow:
+		0px 1px 0px rgba(000, 000, 000, 0.5),
+		inset 0px 0px 1px rgba(255, 255, 255, 0.5);
+	text-shadow:
+		0px -1px 0px rgba(000, 000, 000, 0.7),
+		0px 1px 0px rgba(255, 255, 255, 0.3);
+ }
+ .jshowoff-controls img{
+ 	margin-top:7px;
+	height:10px;
+ }
+.jshowoff-slidelinks a.jshowoff-active, .jshowoff-slidelinks a.jshowoff-active:hover {
+	background-color: #aed135;
+	}
+
+@media only screen and (max-width: 767px) {
+	.slide_wrapper{
+		display:none;	
+	}
+}

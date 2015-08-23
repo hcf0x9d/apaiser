@@ -1,0 +1,269 @@
+/* Products.aspx */
+#portfolio_wavy
+{
+    display: inline-block;
+    min-height: 474px;
+}
+#product_categories
+{
+    color:#fff;
+}
+
+.portfolio-filters a
+{
+    color:#fff;
+    cursor:pointer;
+}
+    .portfolio-filters a:hover
+    {
+        color:#b0d136;
+    }
+    .portfolio-filters a.current
+    {
+        color:#b0d136;
+    }
+
+.product_class
+{
+    list-style-type:none;
+    clear:left;
+    margin:0 0 0 0;
+    padding:10px 0 !important; 
+    border-top:1px solid #fff;
+    font-size:18px;
+    width: 100%;
+}
+    .product_class h3
+    {
+    }
+    .product_class img
+    {
+        vertical-align:middle;
+        margin-right:5px;
+    }
+
+    .product_shape
+    {
+        clear:left;
+        padding:0;
+        margin:0;
+        overflow:hidden;
+        display:none;
+    }
+        .product_shape li
+        {
+            list-style-type:none;
+            display:block;
+            font-size:12px;
+            height:20px;
+        }
+            .product_shape li:first-child
+            {
+                margin-top:10px;
+            }
+.product
+{
+    display:block;
+    margin:5px;
+    width:220px;
+    float:left;
+    position:relative;
+    min-height:161px;
+    background-image:url(/MediaFiles/Images/ajax-loader.gif);
+    background-position:center center;
+    background-repeat:no-repeat;
+}
+
+    .product h3
+    {
+        position:absolute;
+        bottom:0;
+        left:0;
+        width:96%;
+        padding:5px 2%;
+        background:#282425;
+        color:#fff;
+        letter-spacing:normal;
+    }
+
+.hidden
+{
+    display: none;
+}
+/* Item.aspx */
+.item_description h1
+{
+    font-family: CenturyGothicPro-Bold, 'Century Gothic', sans-serif;
+    letter-spacing:normal;
+	font-weight: normal;
+}
+.item_description h2
+{
+    font-size:1.333em;
+    color:#fff;
+    letter-spacing:normal;
+    font-family: CenturyGothicPro-Bold, 'Century Gothic', sans-serif;
+	font-weight: normal;
+}
+.item_breadcrumbs
+{
+    display: inline-block;
+    margin:10px 0 0 0;
+}
+    .item_breadcrumbs li
+    {
+        display:inline-block;
+        float:left;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+        color:#fff !important;
+    }
+        .item_breadcrumbs li:first-child::after
+        {
+            content: '>';
+            padding:0 5px;
+        }
+    .item_breadcrumbs a
+    {
+        color:#fff;
+        text-decoration:none;
+    }
+
+.item_images
+{
+    display: inline-block;
+}
+    .item_images li
+    {
+        display:inline-block;
+        float:left;
+        list-style-type:none;
+        width:32%;
+        padding:0 1.4% 1% 0;
+        margin:0;
+        cursor:pointer;
+    }
+    .item_images li:nth-child(3)
+    {
+        padding:0 0 1% 0;
+    }
+
+.item_downloadables
+{
+    display: inline-block;
+}
+    .item_downloadables li
+    {
+        display:inline-block;
+        float:left;
+        list-style-type:none;
+        padding:0;
+        margin:0;
+    }
+        .item_downloadables li img
+        {
+            margin-right:5px;
+            margin-bottom:5px;
+            vertical-align: middle;
+        }
+.item_comp_prod
+{
+    display: inline-block;
+}
+    .item_comp_prod li
+    {
+        display:inline-block;
+        width:47.5%;
+        float:left;
+        list-style-type:none;
+        padding:0;
+        margin:0 0 1.5% 0;
+    }
+        .item_comp_prod li:nth-child(2n+1)
+        {
+            margin-right:1.5%;
+        }
+
+.hide
+{
+    display: none;
+}
+
+.colours
+{
+    display:table-cell;
+    max-width:350px;
+    vertical-align:top;
+}
+    .colours li
+    {
+        list-style-type:none;
+        float:left;
+        padding:0;
+        margin:0;
+        width: 42px;
+        height: 42px;
+    }
+        .colours li img
+        {
+            border:2px transparent solid;
+        }
+.colours_full
+{
+    display:table-cell;
+    vertical-align:top;
+    width: 101px;
+    height:101px;
+    position:relative;
+    padding:0;
+}
+    .colours_full img
+    {
+        width:97px;
+    }
+    .colours_full h2
+    {
+        font-size:1.333em;
+        color:#fff;
+        letter-spacing:normal;
+        width:100%;
+    }
+
+#pager
+{
+    float:right;
+    margin-top:20px;
+}
+#pager a
+{
+    background:#6B615A;
+    color:#fff;
+    display:block;
+    padding:5px;
+    float:left;
+    min-width:20px;
+    text-align:center;
+    cursor:pointer;
+}
+    #pager a:hover
+    {
+        background: #b0d136 !important;
+    }
+.currentPage {
+    background: #b0d136 !important;
+}
+
+@media only screen and (max-width: 767px)
+{
+    #portfolio_wavy
+    {
+        display:block;
+        margin:0 auto;
+    }
+    .product
+    {
+        display:block;
+        float:none;
+    }
+}

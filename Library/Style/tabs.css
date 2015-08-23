@@ -1,0 +1,38 @@
+.product_tabs{ 
+    background:url("/MediaFiles/Images/tabs.png") top left no-repeat;
+    width:21px;
+    height:114px;
+    z-index: 101;
+}
+    .baths
+    {
+        background-position:0 -115px;
+    }
+        .baths_on
+        {
+            background-position:0 0;
+        }
+    .basins
+    {
+        background-position:-21px -115px;
+    }
+        .basins_on
+        {
+            background-position:-21px 0;
+        }
+    .vanities
+    {
+        background-position:-42px -115px;
+    }
+        .vanities_on
+        {
+            background-position:-42px 0;
+        }
+    .extras
+    {
+        background-position:-64px -115px;
+    }
+        .extras_on
+        {
+            background-position:-64px 0;
+        }

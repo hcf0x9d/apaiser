@@ -1,0 +1,4 @@
+[29-Apr-2015 02:50:13 Australia/Sydney] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/apaiserc/public_html/products/item.php on line 85
+[29-Apr-2015 02:50:13 Australia/Sydney] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/apaiserc/public_html/products/item.php on line 97
+[29-Apr-2015 02:50:13 Australia/Sydney] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/apaiserc/public_html/products/item.php on line 144
+[29-Apr-2015 02:50:13 Australia/Sydney] PHP Warning:  mysql_fetch_array() expects parameter 1 to be resource, boolean given in /home/apaiserc/public_html/products/item.php on line 177

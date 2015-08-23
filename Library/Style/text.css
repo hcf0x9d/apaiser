@@ -1,0 +1,77 @@
+/* =============================================================================
+   Titan Framework - inspired from http://960.gs
+   Learn more ~ http://titanthemes.com/
+
+   Licensed under GPL and MIT.
+   ========================================================================== */
+
+/* =============================================================================
+   Basic HTML
+   ========================================================================== */
+
+body { font: 12px 'Century Gothic', CenturyGothicPro, 'Liberation Sans', FreeSans, sans-serif;color:#858383;}
+pre, code { font-family: 'DejaVu Sans Mono', Menlo, Consolas, monospace; }
+hr { border: 0 #ccc solid; border-top-width: 1px; clear: both; height: 0; }
+p
+{
+    color: #FFF;
+    font-size:11px;
+}
+a { color:#b0d136;
+}
+
+
+
+/* =============================================================================
+   Headings
+   ========================================================================== */
+h1 { font-family: 'Century Gothic', CenturyGothicPro,sans-serif; /* page heading */
+     font-weight:bold; 
+     font-size: 1.542em;
+     line-height:100%;
+     text-transform:lowercase;
+     color:#b0d136;
+     margin:1em 0 !important;
+}
+	h1 span{
+		color:#B1C51A;	
+	}
+h2 { font-family: 'Century Gothic', CenturyGothicPro,sans-serif; /* page heading */
+     font-weight:normal; 
+     font-size: 3em;
+     line-height:120%;
+     text-transform:lowercase;
+	 letter-spacing:-3px;
+     margin:0 0 1em 0 !important;
+
+}
+h3 { font-family: 'Century Gothic', CenturyGothicPro,sans-serif;
+     font-weight:normal;
+     font-size: 1em;
+	 letter-spacing:-1px;
+	 line-height: 100%;
+     margin:0 !important;
+
+}
+h4 {
+    font-family: 'Century Gothic', CenturyGothicPro,sans-serif; 
+    font-size: 1.25em;
+    font-weight:normal;
+}
+h5 { 
+	font-family: 'Century Gothic', CenturyGothicPro,sans-serif; 
+    font-size: 1em;
+    font-weight:normal;
+	margin:0 !important;
+}
+h6 { font-size: 12px; }
+
+/* =============================================================================
+   Spacing
+   ========================================================================== */
+ol { list-style: decimal; }
+ul { list-style: disc; }
+li { margin-left: 30px; }
+p, dl, hr, h1, h2, h3, h4, h5, h6, ol, ul, pre, table, address, fieldset, figure {
+  margin-bottom: 20px;
+}
